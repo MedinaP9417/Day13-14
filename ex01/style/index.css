@@ -1,0 +1,160 @@
+body {
+    background-color: #574C49;
+}
+
+.w-100 {
+    width: 200px;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 0, 5em;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+}
+
+.sjena {
+    opacity: 0.3;
+}
+
+.title {
+    width: 50%;
+    height: 50%;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    overflow-wrap: normal;
+    position: relative;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text1 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: -7%;
+    text-align: justify;
+    text-indent: 7%;
+    font-weight: normal;
+}
+
+.text2 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: -5%;
+    text-align: justify;
+    text-indent: -1%;
+    font-weight: normal;
+}
+
+.text3 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: -4%;
+    text-align: justify;
+    text-indent: 7%;
+    font-weight: normal;
+}
+
+.text4 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: 85%;
+    text-align: justify;
+    text-indent: 12%;
+    font-weight: normal;
+}
+
+.text5 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130px;
+    position: relative;
+    margin-top: 3%;
+    text-align: justify;
+    text-indent: 7%;
+    font-weight: normal;
+}
+
+.text6 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: 63%;
+    text-align: justify;
+    text-indent: 3%;
+    font-weight: normal;
+}
+
+.text7 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: -5%;
+    text-align: justify;
+    text-indent: 3%;
+    font-weight: normal;
+}
+
+.text8 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: 45%;
+    text-align: justify;
+    text-indent: 7%;
+    font-weight: normal;
+}
+
+.text9 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: 65%;
+    text-align: justify;
+    text-indent: 7%;
+    font-weight: normal;
+}
+
+.text10 {
+    z-index: 1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 190px;
+    position: relative;
+    margin-top: 50%;
+    text-align: justify;
+    text-indent: 13%;
+    font-weight: normal;
+}
