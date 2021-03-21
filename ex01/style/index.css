@@ -3,19 +3,56 @@ body {
 }
 
 .w-100 {
-    width: 200px;
+    width: 250px;
     float: left;
-    margin-right: 1%;
-    margin-bottom: 0, 5em;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
 }
 
-#myImg {
+.portfolio {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-block: 0;
+    min-height: 100vh;
+    flex: 1 1 60%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    justify-content: center;
 }
 
-.myImg:hover {
+.portfolio-item.medium {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.portfolio-item.large {
+    grid-row: span 3;
+    grid-column: span 1;
+}
+
+.portfolio-item.small {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.portfolio-item.small:hover {
+    opacity: 0.7;
+}
+
+.portfolio-item.medium:hover {
+    opacity: 0.7;
+}
+
+.portfolio-item.large:hover {
     opacity: 0.7;
 }
 
